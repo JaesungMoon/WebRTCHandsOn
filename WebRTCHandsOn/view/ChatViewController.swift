@@ -7,15 +7,16 @@
 //
 
 import UIKit
+import WebRTC
 
 class ChatViewController: UIViewController{
+    
+    @IBOutlet weak var remoteVideoView: RTCEAGLVideoView!
+    @IBOutlet weak var cameraPreview: RTCCameraPreviewView!
     
     @IBAction func close(_ sender: Any) {
         print("close")
         dismiss(animated: true, completion: nil)
     }
-    @IBAction func returnToMe(segue: UIStoryboardSegue) {
-        
-        print("dismiss")
-    }
+    
 }

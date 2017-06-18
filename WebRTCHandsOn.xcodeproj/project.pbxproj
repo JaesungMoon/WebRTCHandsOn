@@ -13,6 +13,7 @@
 		51B047631EF596E8000BF7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B047621EF596E8000BF7FC /* Assets.xcassets */; };
 		51B047661EF596E8000BF7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B047641EF596E8000BF7FC /* LaunchScreen.storyboard */; };
 		51F12E951EF59ECF0054749B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F12E941EF59ECF0054749B /* ChatViewController.swift */; };
+		51F12E981EF63F560054749B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F12E971EF63F560054749B /* Util.swift */; };
 		CFA51D01B75D8EAD07EB7EC5 /* Pods_WebRTCHandsOn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F0133907A45B0AE4E467FA /* Pods_WebRTCHandsOn.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		51B047651EF596E8000BF7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B047671EF596E8000BF7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F12E941EF59ECF0054749B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		51F12E971EF63F560054749B /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		9CEE696788B944DEC66C1A54 /* Pods-WebRTCHandsOn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTCHandsOn.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebRTCHandsOn/Pods-WebRTCHandsOn.release.xcconfig"; sourceTree = "<group>"; };
 		A34FC22A7076C8DFBB0A7719 /* Pods-WebRTCHandsOn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebRTCHandsOn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebRTCHandsOn/Pods-WebRTCHandsOn.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 				51B047621EF596E8000BF7FC /* Assets.xcassets */,
 				51B047641EF596E8000BF7FC /* LaunchScreen.storyboard */,
 				51B047671EF596E8000BF7FC /* Info.plist */,
+				51F12E971EF63F560054749B /* Util.swift */,
 			);
 			path = WebRTCHandsOn;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				51B0475E1EF596E8000BF7FC /* ViewController.swift in Sources */,
 				51F12E951EF59ECF0054749B /* ChatViewController.swift in Sources */,
 				51B0475C1EF596E8000BF7FC /* AppDelegate.swift in Sources */,
+				51F12E981EF63F560054749B /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
